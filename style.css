@@ -1,0 +1,206 @@
+body{
+    font-family: serif;
+    margin:0;
+    text-align: center;
+}
+header {
+    font-family:serif;
+    color:rgb(220, 204, 35);
+    position: absolute;
+    top:0;
+    height: 50vh;
+    width:100%;
+    font-size:200%;
+    background: url(img/bg.jpg) center / cover;
+    z-index: 1;
+}
+.caption{
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 1;
+	font-family: "Dosis", sans-serif;
+	letter-spacing: .05em;
+	text-align: right;
+}
+a.toplink{
+    padding: 0 5vw;
+    text-decoration: none;
+    color:#443cdc;
+    transition: all .3s;
+}
+a.toplink:hover{
+    color: #fff;
+    background-color:#443cdc;
+}
+a.totoplink{
+    text-decoration: none;
+    color:#333333;
+    transition: all .3s;
+}
+a.totoplink:hover{
+    color: #443cdc;
+}
+a.normallink{
+    padding: 3px 5vw;
+    text-decoration: none;
+    color:#000000;
+    transition: all .3s;    
+}
+a.normallink:hover{
+    color: #fff;
+    background-color:#333333;
+}
+.main{
+    background-color:#443cdc;
+    color:#fff;
+    font-size:100%;
+    padding: 50vh 0px;
+	font-size: 1.6rem;
+}
+.sub{
+    float:left;
+}
+.top{
+    position: relative;
+    top:30vh;
+}
+.header{
+    background-color: rgba( 255, 255, 255, 0.6 );
+}
+.obj{
+    background-color:#ffffff;
+    color:#111;
+    margin: 10vh 0;
+}
+.image{
+    position: relative;
+    margin-right:10px;
+    width:35vw;
+    height:auto;
+}
+p{
+    font-size:80%;
+}
+.box{
+    display:inline-block;
+    position: relative;
+    background-color:#6af;
+    margin:0 5px;
+    width:25px;
+    height:25px;
+}
+.boxf{
+    display:inline-block;
+    position: relative;
+    border:1px solid #6af;
+    margin:0 5px;
+    width:24px;
+    height:24px;
+}
+h3.left{
+    text-align: left;
+    position: relative;
+    left:35vw;
+}
+.pp{
+    display:inline-block;
+    width:200px;
+}
+h3.bold{
+    font-weight: bold;
+}
+hr.point {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+li{
+    list-style-type: none
+}
+#scroll_to_top {
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+#scroll_to_top.button {
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 1em;
+    background-color: #eee;
+}
+.usegengo{
+    background-color:#acf;
+    padding:1vh 1vh;
+    border-radius: 5px;
+}
+.horizontal_scroll_wrap{
+    background: #f1f1f1;
+    height: 240px;
+    overflow-y: hidden;
+    margin: 0 -10px;
+}
+.scroll_lst {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 50px;
+    margin: 25px 0 0;
+    -webkit-overflow-scrolling: touch;
+}
+.scroll_item {
+    margin-right: 10px;
+    display: inline-block;
+    width: 220px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.scroll_item:first-child {
+    margin-left: 10px;
+}
+ 
+.scroll_item_inr {
+    display: block;
+}
+.scroll_item_info {
+    white-space: normal;
+    padding: 8px;
+}
+.scroll_item_ttl {
+    font-size: 12px;
+    color: #484848;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+@media all and (max-width: 700px) {
+    header {          
+        font-size:100%;
+        height: 30vh;
+    }
+    .main{
+        padding: 30vh 16px;
+    }
+    a.toplink{
+        font-size:80%;
+    }
+    .obj{
+        font-size:80%;
+    }
+    .box{
+        width:10px;
+        height:10px;
+        margin:0 2px;
+    }
+    h3.left{
+        text-align: left;
+        position: relative;
+        left:0;
+    }
+    .pp{
+        width:150px;
+    }
+}
+
